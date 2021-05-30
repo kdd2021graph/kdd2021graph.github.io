@@ -366,3 +366,19 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+.column {
+    column-count: 3;
+    column-gap: 40px;
+}
+
+div.columns {
+  column-count: 3;
+  column-width:  300px;
+  -moz-column-width: 300px;
+  -webkit-column-width: 300px;
+}
+div.keeptogether {
+  display: inline-block;
+  width: 100%;
+}
